@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		9D5D7EDC1E0EE2EA003EDD6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D7EDB1E0EE2EA003EDD6E /* AppDelegate.swift */; };
 		9D5D7EDE1E0EE2EA003EDD6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D7EDD1E0EE2EA003EDD6E /* ViewController.swift */; };
-		9D5D7EE11E0EE2EA003EDD6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D7EDF1E0EE2EA003EDD6E /* Main.storyboard */; };
 		9D5D7EE31E0EE2EA003EDD6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D7EE21E0EE2EA003EDD6E /* Assets.xcassets */; };
 		9D5D7EE61E0EE2EA003EDD6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D7EE41E0EE2EA003EDD6E /* LaunchScreen.storyboard */; };
 		9D5D7EF11E0EE2EA003EDD6E /* tipppyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D7EF01E0EE2EA003EDD6E /* tipppyTests.swift */; };
 		9D5D7EFC1E0EE2EA003EDD6E /* tipppyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D7EFB1E0EE2EA003EDD6E /* tipppyUITests.swift */; };
+		9D5D7F0A1E0EE7FC003EDD6E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D7F091E0EE7FC003EDD6E /* SettingsViewController.swift */; };
+		9D5D7F0E1E0F2E11003EDD6E /* discountCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D7F0D1E0F2E11003EDD6E /* discountCal.swift */; };
+		9D5D7F101E0F66CF003EDD6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D7F0F1E0F66CF003EDD6E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 		9D5D7ED81E0EE2EA003EDD6E /* tipppy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipppy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5D7EDB1E0EE2EA003EDD6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D5D7EDD1E0EE2EA003EDD6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9D5D7EE01E0EE2EA003EDD6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D5D7EE21E0EE2EA003EDD6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D5D7EE51E0EE2EA003EDD6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D5D7EE71E0EE2EA003EDD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		9D5D7EF71E0EE2EA003EDD6E /* tipppyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipppyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5D7EFB1E0EE2EA003EDD6E /* tipppyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipppyUITests.swift; sourceTree = "<group>"; };
 		9D5D7EFD1E0EE2EA003EDD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D5D7F091E0EE7FC003EDD6E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9D5D7F0D1E0F2E11003EDD6E /* discountCal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = discountCal.swift; sourceTree = "<group>"; };
+		9D5D7F0F1E0F66CF003EDD6E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				9D5D7EDB1E0EE2EA003EDD6E /* AppDelegate.swift */,
 				9D5D7EDD1E0EE2EA003EDD6E /* ViewController.swift */,
-				9D5D7EDF1E0EE2EA003EDD6E /* Main.storyboard */,
+				9D5D7F0D1E0F2E11003EDD6E /* discountCal.swift */,
+				9D5D7F091E0EE7FC003EDD6E /* SettingsViewController.swift */,
+				9D5D7F0F1E0F66CF003EDD6E /* Main.storyboard */,
 				9D5D7EE21E0EE2EA003EDD6E /* Assets.xcassets */,
 				9D5D7EE41E0EE2EA003EDD6E /* LaunchScreen.storyboard */,
 				9D5D7EE71E0EE2EA003EDD6E /* Info.plist */,
@@ -232,9 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5D7F101E0F66CF003EDD6E /* Main.storyboard in Resources */,
 				9D5D7EE61E0EE2EA003EDD6E /* LaunchScreen.storyboard in Resources */,
 				9D5D7EE31E0EE2EA003EDD6E /* Assets.xcassets in Resources */,
-				9D5D7EE11E0EE2EA003EDD6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D5D7EDE1E0EE2EA003EDD6E /* ViewController.swift in Sources */,
+				9D5D7F0E1E0F2E11003EDD6E /* discountCal.swift in Sources */,
 				9D5D7EDC1E0EE2EA003EDD6E /* AppDelegate.swift in Sources */,
+				9D5D7F0A1E0EE7FC003EDD6E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9D5D7EDF1E0EE2EA003EDD6E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D5D7EE01E0EE2EA003EDD6E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9D5D7EE41E0EE2EA003EDD6E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -503,6 +503,7 @@
 				9D5D7F021E0EE2EA003EDD6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D5D7F031E0EE2EA003EDD6E /* Build configuration list for PBXNativeTarget "tipppyTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +512,7 @@
 				9D5D7F051E0EE2EA003EDD6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D5D7F061E0EE2EA003EDD6E /* Build configuration list for PBXNativeTarget "tipppyUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +521,7 @@
 				9D5D7F081E0EE2EA003EDD6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
