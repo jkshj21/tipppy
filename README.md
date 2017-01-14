@@ -37,8 +37,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-
+ I experienced unexpected and inconsistent crashes while working on the video tutorial and additonal features. 
 ## License
 
     Copyright [yyyy] [name of copyright owner]
